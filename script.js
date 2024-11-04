@@ -49,7 +49,6 @@ function displayBars(barNumber) {
         height = [50, 75, 100, 125, 150, 175]; // Reducir alturas en dispositivos móviles
     }
 
-    console.log(window.innerWidth)
     // Crear barra izquierda
     const leftBar = document.createElement('div');
     leftBar.classList.add('barra');
